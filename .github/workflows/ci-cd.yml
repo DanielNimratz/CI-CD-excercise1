@@ -41,4 +41,5 @@ jobs:
       with:
         context: .
         push: true
+        
         tags: yourusername/myapp:latest,yourusername/myapp:${{ github.sha }}
