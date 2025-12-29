@@ -19,7 +19,7 @@ jobs:
     
     - name: Run tests
       run: |
-        g++ -o test_app tests/test_main.cpp
+        g++ -o test_app test_main.cpp
         ./test_app
     
     - name: Compile application
